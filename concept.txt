@@ -1,0 +1,84 @@
+Home Page Mockup Specification
+
+General Layout
+
+The homepage consists of multiple sections with a structured and modern design. The color scheme follows earthy and neutral tones.
+
+Header
+
+Logo on the left labeled "4 Éléments"
+
+Navigation links: "Feu", "Air", "Terre", "Eau"
+
+Social media icons: Facebook, Instagram
+
+Two buttons: "Se connecter" and "Réserver"
+
+Hero Section
+
+Background image of a luxury hotel setting
+
+Large headline: "Lorem ipsum dolor sit amet consectetur."
+
+Search availability form:
+
+Dropdown for hotel selection
+
+Dropdown for number of persons
+
+Date picker for arrival and departure
+
+"Chercher" button
+
+Hotel Sections
+
+Each hotel section presents a different theme (Feu, Air, Terre, Eau) with:
+
+Title and location
+
+Star rating (3 stars)
+
+Description
+
+"Réserver" button
+
+Image gallery (two images per hotel, aligned side by side)
+
+Concept & Architecture Section
+
+Two columns:
+
+"Le concept" with an image of a thatched-roof hotel
+
+"L'architecture" with a neoclassical-style hotel
+
+Creator's Note
+
+Quote block
+
+Image of the founder (elderly man)
+
+Signature: "Trinh Kuan Hano - Co-fondateur de 4 Éléments"
+
+Footer
+
+Logo and tagline
+
+Contact section with email and address
+
+"Inscrivez un hôtel" button
+
+Links: Mentions légales, CGV, FAQ
+
+Social media icons
+
+Design Considerations
+
+Soft shadows and rounded edges for modern aesthetics
+
+Adequate white space for readability
+
+Consistent typography with elegant serif fonts
+
+High-resolution images to maintain visual appeal
+

@@ -1,0 +1,209 @@
+header {
+    background-color: #64626240;
+}
+
+.row {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 46rem;
+    gap: 2rem;
+}
+
+.logo {
+    width: 16rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav ul li {
+    width: 5rem;
+    height: 100%;
+}
+
+nav ul li a {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: #363a2b;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 0.2rem;
+    background-color: #64626288;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    border-radius: 2rem;
+    transition: all 0.4s ease-in-out;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.user-interface {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 49rem;
+}
+
+.user-interface ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    gap: 3rem;
+}
+.user-interface ul li {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-interface ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #363a2b;
+    height: 100%;
+    cursor: pointer;
+}
+
+.navigation {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.secondbtn {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect {
+    height: 100%;
+    text-align: center;
+}
+
+.connect a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #363a2b;
+    text-decoration: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.secondary-btn {
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #4f6234;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 3.5rem;
+    width: 3.5rem;
+    background: transparent;
+    border: none;
+    align-items: flex-end;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.burger span {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 0.3rem;
+    background: #e5e0dc;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.burger.active {
+    z-index: 10;
+}
+
+.burger.active > span {
+    background: #fff;
+}
+
+.burger.active > span:nth-child(1) {
+    transform: rotate(-45deg) translateY(1rem) translateX(-0.25rem);
+    position: relative;
+}
+
+.burger.active > span:nth-child(2) {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.burger.active > span:nth-child(3) {
+    transform: rotate(45deg) translateY(-1rem) translateX(-0.2rem);
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    header {
+        background-color: transparent;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .user-interface {
+        justify-content: flex-end;
+    }
+
+    .row {
+        width: 70%;
+        margin-top: 5rem;
+    }
+}

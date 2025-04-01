@@ -7,9 +7,106 @@
     <link rel="stylesheet" href="/assets/css/global/header/styles.css">
     <link rel="stylesheet" href="/assets/css/global/footer/styles.css">
     <link rel="stylesheet" href="/assets/css/pages/homepage/styles.css">
-    <title>Document</title>
+    <title>4 Elements</title>
 </head>
 <body>
+    <header>
+        <div class="row">
+            <div class="mobile">
+                <button class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="desktop">
+                <div class="logo">
+                    <a href="#" title="4 Elements - Homepage"><img src="/assets/images/logo-noir.png" alt="4 Elements - logo of the company"></a>
+                </div>
+                <ul>
+                    <li><a href="#" title="4 Elements - Hotel Feu">Feu</a></li>
+                    <li><a href="#" title="4 Elements - Hotel Air">Air</a></li>
+                    <li><a href="#" title="4 Elements - Hotel Terre">Terre</a></li>
+                    <li><a href="#" title="4 Elements - Hotel Eau">Eau</a></li>
+                </ul>
+            </nav>
+            <div class="user-interface desktop">
+                <ul>
+                    <li><a href="#" title="4 Elements - Contact us">Contact</a></li>
+                    <li><a href="#" title="4 Elements - Instagram"><img src="/assets/images/insta.png" alt="4 Elements - Instagram"></a></li>
+                    <li><a href="#" title="4 Elements - Facebook"><img src="/assets/images/fb.png" alt="4 Elements - Facebook"></a></li>
+                </ul>
+                <div class="navigation">
+                    <div class="secondbtn">
+                        <button class="secondary-btn">Reserver</button>
+                    </div>
+                    <div class="connect">
+                        <a href="#" title="4 Elements - Connect">Se connecter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="user-interface mobile">
+                <ul>
+                    <li><a href="#" title="4 Elements - Instagram"><img src="/assets/images/insta.png" alt="4 Elements - Instagram"></a></li>
+                    <li><a href="#" title="4 Elements - Facebook"><img src="/assets/images/fb.png" alt="4 Elements - Facebook"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="cta">
+            <video disablePictureInPicture autoplay loop muted playsinline>
+                <source src="/assets/videos/home.mp4" type="video/mp4">
+            </video>
+            <div class="container-fluid">
+                <div class="title">
+                    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                </div>
+            </div>
+            <div class="form-container">
+                <div>
+                    <h4>Rechercher une disponiblité</h4>
+                </div>
+                <form id="form" action="/index.html">
+                    <div id="hotel">
+                        <div class="label">
+                            <label>Choisir un hôtel</label>
+                        </div>
+                        <select name="hotel-select" id="hotel-select">
+                            <option value="1">Hôtel terre</option>
+                            <option value="2">Hôtel feu</option>
+                            <option value="3">Hôtel air</option>
+                            <option value="4">Hôtel eau</option>
+                        </select>   
+                    </div>
+                    <div id="pax">
+                        <div class="label">
+                            <label>Nbr de personnes</label>
+                        </div>
+                        <select name="personnes-nb" id="pax-nb">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>   
+                    </div>
+                    <div id="arr-date">
+                        <div class="label">
+                            <label>Choisir une date d’arrivée</label>
+                        </div>
+                        <input type="date" id="datePicker">  
+                    </div>
+                </form>
+                <div class="prmbtn">
+                    <button class="primary-btn">Chercher</button>
+                </div>
+            </div>
+        </section>
+        <section class="feu">
+
+
+        </section>
+    </main>
     
 <script src="/assets/js/script.js"></script>
 </body>
