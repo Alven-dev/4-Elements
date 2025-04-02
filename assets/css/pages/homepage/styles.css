@@ -140,8 +140,186 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: #fff;
     background-color: #363a2b;
     font-size: 3rem;
+    cursor: pointer;
 }
 
+/* HOTEL FEU  */
+
+.feu {
+    padding-top: 30rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-right {
+    width: 90%;
+    height: 75rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.image-hub {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.main-img {
+    width: 70%;
+}
+
+.main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -55rem;
+    
+}
+
+.small-img {
+    width: 30%;
+}
+
+.small-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 9.6rem;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    color: #363a2b;
+}
+
+.article {
+    width: 69.8%;
+}
+
+.article article p {
+    font-size: 2rem;
+    font-family: 'Karla';
+    font-weight: 400;
+    line-height: 100%;
+    color: #363a2b;
+}
+
+.location span {
+    font-size: 2rem;
+    vertical-align: top;
+    margin-left: 1rem;
+}
+
+.air, .eau {
+    margin-top: 10rem;
+}
+
+.container-left {
+    width: 90%;
+    height: 75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.air .main-img img {
+    object-position: center;
+}
+
+.terre {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.concept {
+    margin-top: 15rem;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.concept-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90rem;
+    gap: 5rem;
+}
+
+.concept-img {
+    width: 100%;
+    height: 40rem;
+}
+
+.concept-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.concept-article p {
+    font-size: 2rem;
+    color: #363a2b;
+}
+
+h3 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    color: #363a2b;
+}
+
+.author {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.author-item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 80rem;
+    justify-content: space-around;
+}
+
+.author-img {
+    height: 100%;
+    width: 100%;
+}
+
+.author-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.signature {
+    font-size: 2rem;
+    color: #363a2b;
+    margin-top: 3rem;
+}
+
+.signature span {
+    font-weight: 700;
+}
 
 @media (max-width: 1024px) {
     .cta video {
@@ -163,7 +341,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
 
     .form-container {
-        width: 80%;
+        width: 35rem;
         height: 40rem;
     }
     
@@ -193,5 +371,82 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
     .prmbtn {
         scale: 0.8;
+    }
+
+    .container-right {
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 2rem;
+    }
+
+    .container-left {
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 2rem;
+    }
+    
+    .content {
+        width: 90%;
+        height: 50rem;
+    }
+
+    .image-hub {
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+    }
+
+    .small-img {
+        height: 50rem;
+        width: 20%;
+    }
+
+    .main-img {
+        width: 80%;
+    }
+
+    .main-img img {
+        object-position: center;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .article article p {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 6.4rem;
+    }
+
+    .air, .eau {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .air .image-hub, .eau .image-hub {
+        flex-direction: row-reverse;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+
+    .author-item {
+        width: 100%;
+        gap: 5rem;
+        height: auto;
+    }
+
+    .author-img img {
+        object-fit: cover;
+        width: 100%;
+        height: 30rem;
     }
 }
