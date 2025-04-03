@@ -130,15 +130,7 @@ main {
 }
 
 @media (max-width: 768px) {
-    .modal {
-        width: 90vw;
-    }
-}
-
-
-#form {
-    display: flex;
-    flex-direction: column;
+    
 }
 
 @media (min-width: 1025px) {
@@ -150,5 +142,8 @@ main {
 @media (max-width: 1024px) {
     .desktop {
         display: none !important;
+    }
+    .modal {
+        width: 90vw;
     }
 }
