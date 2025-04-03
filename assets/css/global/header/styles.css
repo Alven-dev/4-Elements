@@ -196,6 +196,7 @@ nav ul li a:hover::after {
         position: fixed;
         width: 100%;
         z-index: 100;
+        transition: background-color 0.4s ease-in-out;
     }
 
     .user-interface {
@@ -205,5 +206,99 @@ nav ul li a:hover::after {
     .row {
         width: 70%;
         margin-top: 5rem;
+    }
+
+    .navbar {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(135deg, #d7c8b488, #e0d3c37c, #ffffff80);
+        visibility: hidden;
+        opacity: 0;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        backdrop-filter: blur(0.5rem);
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar ul {
+        margin-top: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+        height: 80%;
+    }
+
+    .navbar ul li {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar ul li a {
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #363a2b;
+        font-size: 3.2rem;
+        font-weight: 500;
+        transition: .3s ease-in-out;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    .navbar.active {
+        transform: translateY(0);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .navbar:not(.active) {
+         opacity: 0; 
+        visibility: hidden; 
+        transform: translateY(100%);
+        pointer-events: none;
+        transition: 0.5s ease-in-out;
+    }
+
+    .burger.active {
+        z-index: 10;
+    }
+
+    .burger.active > span:nth-child(1) {
+        transform: rotate(-45deg) translateY(1rem) translateX(-0.25rem);
+        position: relative;
+    }
+
+    .burger.active > span:nth-child(2) {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out;
+    }
+    
+    .burger.active > span:nth-child(3) {
+        transform: rotate(45deg) translateY(-1.6rem) translateX(-0.55rem);
+        width: 100%;
+        position: relative;
+    }
+
+    .scrolled {
+        background-color: #07070770;
     }
 }

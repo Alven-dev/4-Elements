@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/global/reset/styles.css">
-    <link rel="stylesheet" href="/assets/css/global/header/styles.css">
-    <link rel="stylesheet" href="/assets/css/global/footer/styles.css">
-    <link rel="stylesheet" href="/assets/css/pages/homepage/styles.css">
+    <link rel="stylesheet" href="assets/css/global/reset/styles.css">
+    <link rel="stylesheet" href="assets/css/global/header/styles.css">
+    <link rel="stylesheet" href="assets/css/global/footer/styles.css">
+    <link rel="stylesheet" href="assets/css/pages/homepage/styles.css">
     <title>4 Elements - Homepage</title>
 </head>
 <body>
     <header>
         <div class="row">
             <div class="mobile">
-                <button class="burger">
+                <nav id="burger-nav" class="navbar mobile">
+                    <ul>
+                        <li><a href="#" title="4 Elements - Connect">Se connecter</a></li>
+                        <li><a href="index.html" title="4 Elements - Hotel Feu">Home</a></li>
+                        <li><a href="assets/pages/feu/index.html" title="4 Elements - Hotel Feu">Feu</a></li>
+                        <li><a href="#" title="4 Elements - Hotel Air">Air</a></li>
+                        <li><a href="#" title="4 Elements - Hotel Terre">Terre</a></li>
+                        <li><a href="#" title="4 Elements - Hotel Eau">Eau</a></li>
+                        <li><a href="#" title="4 Elements - Contact us">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="burger-btn" class="burger">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -21,10 +32,10 @@
             </div>
             <nav class="desktop">
                 <div class="logo">
-                    <a href="#" title="4 Elements - Homepage"><img src="/assets/images/logo-noir.png" alt="4 Elements - logo of the company"></a>
+                    <a href="index.html" title="4 Elements - Homepage"><img src="assets/images/logo-noir.png" alt="4 Elements - logo of the company"></a>
                 </div>
                 <ul>
-                    <li><a href="#" title="4 Elements - Hotel Feu">Feu</a></li>
+                    <li><a href="assets/pages/feu/index.html" title="4 Elements - Hotel Feu">Feu</a></li>
                     <li><a href="#" title="4 Elements - Hotel Air">Air</a></li>
                     <li><a href="#" title="4 Elements - Hotel Terre">Terre</a></li>
                     <li><a href="#" title="4 Elements - Hotel Eau">Eau</a></li>
@@ -33,12 +44,12 @@
             <div class="user-interface desktop">
                 <ul>
                     <li><a href="#" title="4 Elements - Contact us">Contact</a></li>
-                    <li><a href="#" title="4 Elements - Instagram"><img src="/assets/images/insta.png" alt="4 Elements - Instagram"></a></li>
-                    <li><a href="#" title="4 Elements - Facebook"><img src="/assets/images/fb.png" alt="4 Elements - Facebook"></a></li>
+                    <li><a href="#" title="4 Elements - Instagram"><img src="assets/images/insta.png" alt="4 Elements - Instagram"></a></li>
+                    <li><a href="#" title="4 Elements - Facebook"><img src="assets/images/fb.png" alt="4 Elements - Facebook"></a></li>
                 </ul>
                 <div class="navigation">
                     <div class="secondbtn">
-                        <button class="secondary-btn">Reserver</button>
+                        <a href="#resa"><button class="secondary-btn">Reserver</button></a>
                     </div>
                     <div class="connect">
                         <a href="#" title="4 Elements - Connect">Se connecter</a>
@@ -47,8 +58,8 @@
             </div>
             <div class="user-interface mobile">
                 <ul>
-                    <li><a href="#" title="4 Elements - Instagram"><img src="/assets/images/insta-white.png" alt="4 Elements - Instagram"></a></li>
-                    <li><a href="#" title="4 Elements - Facebook"><img src="/assets/images/fb-white.png" alt="4 Elements - Facebook"></a></li>
+                    <li><a href="#" title="4 Elements - Instagram"><img src="assets/images/insta-white.png" alt="4 Elements - Instagram"></a></li>
+                    <li><a href="#" title="4 Elements - Facebook"><img src="assets/images/fb-white.png" alt="4 Elements - Facebook"></a></li>
                 </ul>
             </div>
         </div>
@@ -56,18 +67,18 @@
     <main>
         <section class="cta">
             <video disablePictureInPicture autoplay loop muted playsinline>
-                <source src="/assets/videos/home.mp4" type="video/mp4">
+                <source src="assets/videos/home.mp4" type="video/mp4">
             </video>
             <div class="container-fluid">
                 <div class="title">
                     <h1>Lorem ipsum dolor sit amet consectetur.</h1>
                 </div>
             </div>
-            <div class="form-container">
+            <div id="resa" class="form-container">
                 <div>
                     <h4>Rechercher une disponiblité</h4>
                 </div>
-                <form id="form" action="/index.html">
+                <form id="form" action="index.html">
                     <div id="hotel">
                         <div class="label">
                             <label>Choisir un hôtel</label>
@@ -96,7 +107,7 @@
                     </div>
                 </form>
                 <div class="prmbtn">
-                    <button class="primary-btn">Chercher</button>
+                    <button class="primary-btn reserve">Chercher</button>
                 </div>
             </div>
         </section>
@@ -104,10 +115,10 @@
             <div class="container-right">
                 <div class="image-hub">
                     <div class="main-img">
-                        <img src="/assets/images/feu1.jpg" alt="Hotel Feu - first image">
+                        <img src="assets/images/feu1.jpg" alt="Hotel Feu - first image">
                     </div>
                     <div class="small-img">
-                        <img src="/assets/images/feu2.jpg" alt="Hotel Feu - second image">
+                        <img src="assets/images/feu2.jpg" alt="Hotel Feu - second image">
                     </div>
                 </div>
                 <div class="content">
@@ -116,10 +127,10 @@
                     </div>
                     <div class="rate-hub">
                         <div class="location">
-                            <img src="/assets/images/locator.png" alt="Location pointer"> <span>Finlande</span>
+                            <img src="assets/images/locator.png" alt="Location pointer"> <span>Finlande</span>
                         </div>
                         <div class="rating">
-                            <a href="#"><img src="/assets/images/rating.png" alt="rating"></a>
+                            <a href="assets/pages/feu/index.html#avis"><img src="assets/images/rating.png" alt="rating"></a>
                         </div>
                     </div>
                     <div class="article">
@@ -129,7 +140,7 @@
                         </article>
                     </div>
                     <div class="section-prmbtn">
-                        <button class="primary-btn">Reserver</button>
+                        <a href="#resa"><button class="primary-btn">Reserver</button></a>
                     </div>
                 </div>
             </div>
@@ -138,10 +149,10 @@
             <div class="container-left">
                 <div class="image-hub">
                     <div class="small-img">
-                        <img src="/assets/images/air2.jpg" alt="Hotel Air - second image">
+                        <img src="assets/images/air2.jpg" alt="Hotel Air - second image">
                     </div>
                     <div class="main-img">
-                        <img src="/assets/images/air1.jpg" alt="Hotel Air - first image">
+                        <img src="assets/images/air1.jpg" alt="Hotel Air - first image">
                     </div>
                 </div>
                 <div class="content">
@@ -150,10 +161,10 @@
                     </div>
                     <div class="rate-hub">
                         <div class="location">
-                            <img src="/assets/images/locator.png" alt="Location Pointer"> <span>Brésil</span>
+                            <img src="assets/images/locator.png" alt="Location Pointer"> <span>Brésil</span>
                         </div>
                         <div class="rating">
-                            <a href="#"><img src="/assets/images/rating.png" alt="rating"></a>
+                            <a href="#"><img src="assets/images/rating.png" alt="rating"></a>
                         </div>
                     </div>
                     <div class="article">
@@ -163,7 +174,7 @@
                         </article>
                     </div>
                     <div class="section-prmbtn">
-                        <button class="primary-btn">Reserver</button>
+                        <a href="#resa"><button class="primary-btn">Reserver</button></a>
                     </div>
                 </div>
             </div>
@@ -172,10 +183,10 @@
             <div class="container-right">
                 <div class="image-hub">
                     <div class="main-img">
-                        <img src="/assets/images/terre1.jpg" alt="Hotel Terre - first image">
+                        <img src="assets/images/terre1.jpg" alt="Hotel Terre - first image">
                     </div>
                     <div class="small-img">
-                        <img src="/assets/images/terre2.jpg" alt="Hotel Terre - second image">
+                        <img src="assets/images/terre2.jpg" alt="Hotel Terre - second image">
                     </div>
                 </div>
                 <div class="content">
@@ -184,10 +195,10 @@
                     </div>
                     <div class="rate-hub">
                         <div class="location">
-                            <img src="/assets/images/locator.png" alt="Location pointer"> <span>Thaïlande</span>
+                            <img src="assets/images/locator.png" alt="Location pointer"> <span>Thaïlande</span>
                         </div>
                         <div class="rating">
-                            <a href="#"><img src="/assets/images/rating.png" alt="rating"></a>
+                            <a href="#"><img src="assets/images/rating.png" alt="rating"></a>
                         </div>
                     </div>
                     <div class="article">
@@ -196,7 +207,7 @@
                         </article>
                     </div>
                     <div class="section-prmbtn">
-                        <button class="primary-btn">Reserver</button>
+                        <a href="#resa"><button class="primary-btn">Reserver</button></a>
                     </div>
                 </div>
             </div>
@@ -205,10 +216,10 @@
             <div class="container-left">
                 <div class="image-hub">
                     <div class="small-img">
-                        <img src="/assets/images/eau2.jpg" alt="Hotel Eau - second image">
+                        <img src="assets/images/eau2.jpg" alt="Hotel Eau - second image">
                     </div>
                     <div class="main-img">
-                        <img src="/assets/images/eau1.jpg" alt="Hotel Eau - first image">
+                        <img src="assets/images/eau1.jpg" alt="Hotel Eau - first image">
                     </div>
                 </div>
                 <div class="content">
@@ -217,10 +228,10 @@
                     </div>
                     <div class="rate-hub">
                         <div class="location">
-                            <img src="/assets/images/locator.png" alt="Location Pointer"> <span>Île du pacifique</span>
+                            <img src="assets/images/locator.png" alt="Location Pointer"> <span>Île du pacifique</span>
                         </div>
                         <div class="rating">
-                            <a href="#"><img src="/assets/images/rating.png" alt="rating"></a>
+                            <a href="#"><img src="assets/images/rating.png" alt="rating"></a>
                         </div>
                     </div>
                     <div class="article">
@@ -229,7 +240,7 @@
                         </article>
                     </div>
                     <div class="section-prmbtn">
-                        <button class="primary-btn">Reserver</button>
+                        <a href="#resa"><button class="primary-btn">Reserver</button></a>
                     </div>
                 </div>
             </div>
@@ -241,7 +252,7 @@
                         <h3>Le concept</h3>
                     </div>
                     <div class="concept-img">
-                        <img src="/assets/images/concept.jpg" alt="4 Elements - Concept image">
+                        <img src="assets/images/concept.jpg" alt="4 Elements - Concept image">
                     </div>
                     <div class="concept-article">
                         <article>
@@ -259,7 +270,7 @@
                         </article>
                     </div>
                     <div class="concept-img">
-                        <img src="/assets/images/architecture.jpg" alt="4 Elements - Architecture image">
+                        <img src="assets/images/architecture.jpg" alt="4 Elements - Architecture image">
                     </div>
                 </div>
             </div>
@@ -271,11 +282,11 @@
                         <h3>Le mot du créateur</h3>
                     </div>
                     <div class="author-img mobile">
-                        <img src="/assets/images/author.jpg" alt="Author face">
+                        <img src="assets/images/author.jpg" alt="Author face">
                     </div>
                     <div class="concept-article">
                         <div class="quote-img">
-                            <img src="/assets/images/quote.png" alt="The quote">
+                            <img src="assets/images/quote.png" alt="The quote">
                         </div>
                         <article>
                             <p>L'architecture innovante représente une avancée vers l'exploration de l'Espace, symbolisant l'extension de notre civilisation vers ses plus grandes aspirations. S'immerger dans nos hôtels, c'est vivre une expérience sensorielle, se ressourcer au contact des matières des quatre éléments. C'est une découverte en harmonie avec la terre, l'air, l'eau et le feu, où chaque détail architectural offre une connexion profonde avec ces éléments fondamentaux. Les témoignages de nos visiteurs soulignent l'impact transformateur de cette expérience immersive, décrivant une reconnexion unique avec la nature et une redécouverte de soi au sein de cet environnement exceptionnel. Cette approche révolutionnaire redéfinit les attentes du voyage, offrant non seulement un hébergement luxueux, mais une véritable aventure sensorielle qui transcende les limites conventionnelles du tourisme.</p>
@@ -288,24 +299,115 @@
                 </div>
                 <div class="author-item desktop">
                     <div class="author-img">
-                        <img src="/assets/images/author.jpg" alt="Author face">
+                        <img src="assets/images/author.jpg" alt="Author face">
                     </div>
                 </div>
             </div>
         </section>
+        <div id="modal" class="modal d-none">
+            <form action="index.html" id="form-modal">
+                <div class="wrap">
+                    <label for="name">Nom :</label>
+                    <input type="text" name="fullname" id="name">
+                </div>
+                <div class="wrap">
+                    <label for="address">Adresse :</label>
+                    <input type="text" name="address" id="street">
+                </div>
+                <div class="wrap">
+                    <label for="address">Ville :</label>
+                    <input type="text" name="address" id="city">
+                </div>
+                <div class="wrap">
+                    <label for="address">Code postale :</label>
+                    <input type="text" name="address" id="postal">
+                </div>
+                <div class="wrap">
+                    <label for="email">E-mail :</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="wrap">
+                    <label for="phone">Telephone :</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+                <div class="wrap">
+                    <label for="accommodation">Type d'accommodation :
+                    <input type="checkbox" name="house" id="house">
+                    Igloo
+                    <input type="checkbox" name="Appartment" id="appartment">
+                    Suite Laponie
+                    </label>
+                </div>
+                <div class="wrap">
+                    <select name="Number of adults" id="nbppl">
+                    <option value="0">Select number of adults</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    </select>
+                </div>
+                <div class="wrap">
+                    <label>Arrival date :
+                        <input type="date" name="arr-date" id="arrdate">
+                    </label>
+                </div>
+                <div class="wrap">
+                    <label>Departure date :
+                        <input type="date" name="dep-date" id="depdate">
+                    </label>
+                </div>
+                <div class="wrap">
+                    <label>Additional services :
+                        <input type="checkbox" name="piscine" id="chauffer" data-price="15">
+                        Chauffer (11€ / jour)
+                        <input type="checkbox" name="jardin" id="pdj" data-price="15">
+                        Petit Dejeuner (15€ / jour)
+                        <input type="checkbox" name="repas" id="repas" data-price="25">
+                        Repas (25€ / jour)
+                        <input type="checkbox" name="visite" id="visite" data-price="20">
+                        La visite guidée (20€ / jour)
+                    </label>
+                </div>
+                <div class="wrap d-none">
+                    <label>Regime :
+                        <input type="radio" name="choice-one">
+                        Vegan
+                        <input type="radio" name="choice-one">
+                        Vegetarien
+                        <input type="radio" name="choice-one">
+                        Pas de regime
+                    </label>
+                </div>
+                <div class="wrap d-none">
+                    <label>Alergie :
+                        <input type="radio" name="choice">
+                        Sans gluten
+                        <input type="radio" name="choice">
+                        Sans Lactoses
+                        <input type="radio" name="choice">
+                        Autres allergies et intolérances
+                        <input type="radio" name="choice">
+                        Pas des alergies
+                    </label>
+                </div>
+                <button type="submit">Submit reservation</button>
+            </form>
+            <div class="summary"></div>
+            <div class="error"></div>
+            <button id="reset">Reset form</button>
+        </div>
     </main>
     <footer>
         <div class="container-footer">
             <div class="footer-media">
                 <div class="logo">
-                    <img src="/assets/images/logo-noir.png" alt="4 Elements - logo">
+                    <img src="assets/images/logo-noir.png" alt="4 Elements - logo">
                 </div>
                 <div class="slogan">
                     <p>N’attendez plus pour vivre l’expérience 4 éléments le temps d’une nuit.</p>
                 </div>
                 <div class="social-media">
-                    <img src="/assets/images/insta.png" alt="4 Elements - Instagram">
-                    <img src="/assets/images/fb.png" alt="4 Elements - Facebook">
+                    <img src="assets/images/insta.png" alt="4 Elements - Instagram">
+                    <img src="assets/images/fb.png" alt="4 Elements - Facebook">
                 </div>
             </div>
             <div class="footer-contact">
@@ -318,19 +420,19 @@
                     <p><span>Tél :</span> 33 08 280 28002</p>
                 </div>
                 <div>
-                    <button class="secondary-btn">Reserver en ligne</button>
+                    <a href="#resa"><button class="secondary-btn">Reserver en ligne</button></a>
                 </div>
             </div>
             <div class="footer-legal">
                 <ul>
                     <li><a href="#">Mentions légales</a></li>
-                    <li><a href="">Crédits</a></li>
-                    <li><a href="">CGV</a></li>
-                    <li><a href="">Confidentialité</a></li>
+                    <li><a href="#">Crédits</a></li>
+                    <li><a href="#">CGV</a></li>
+                    <li><a href="#">Confidentialité</a></li>
                 </ul>
             </div>
         </div>
     </footer>
-<script src="/assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>

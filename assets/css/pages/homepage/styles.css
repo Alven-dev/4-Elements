@@ -79,16 +79,16 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
 
-    background-image: url('/assets/images/arrow.png'); 
+    background-image: url('assets/images/arrow.png'); 
     background-repeat: no-repeat;
-    background-position: right 2rem center;
+    background-position: right 3rem center;
     background-size: 1.2rem;
     padding-left: 2rem;
 }
 
 input[type="date"] {
 
-    background-image: url('/assets/images/arrow.png'); 
+    background-image: url('assets/images/arrow.png'); 
     background-repeat: no-repeat;
     background-position: right 3rem center;
     background-size: 1.2rem;

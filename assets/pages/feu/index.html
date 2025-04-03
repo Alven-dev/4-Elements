@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4 Elements - Hotel Feu</title>
-    <link rel="stylesheet" href="/assets/css/global/reset/styles.css">
-    <link rel="stylesheet" href="/assets/css/global/header/styles.css">
-    <link rel="stylesheet" href="/assets/css/global/footer/styles.css">
-    <link rel="stylesheet" href="/assets/css/pages/feu/styles.css">
+    <link rel="stylesheet" href="assets/css/global/reset/styles.css">
+    <link rel="stylesheet" href="assets/css/global/header/styles.css">
+    <link rel="stylesheet" href="assets/css/global/footer/styles.css">
+    <link rel="stylesheet" href="assets/css/pages/feu/styles.css">
 </head>
 <body>
     <header>
         <div class="row">
             <div class="mobile">
-                <button class="burger">
+                <nav id="burger-nav" class="navbar mobile">
+                    <ul>
+                        <li><a href="#" title="4 Elements - Connect">Se connecter</a></li>
+                        <li><a href="index.html" title="4 Elements - Hotel Feu">Home</a></li>
+                        <li><a href="assets/pages/feu/index.html" title="4 Elements - Hotel Feu">Feu</a></li>
+                        <li><a href="#" title="4 Elements - Hotel Air">Air</a></li>
+                        <li><a href="#" title="4 Elements - Hotel Terre">Terre</a></li>
+                        <li><a href="#" title="4 Elements - Hotel Eau">Eau</a></li>
+                        <li><a href="#" title="4 Elements - Contact us">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="burger-btn" class="burger">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -21,7 +32,7 @@
             </div>
             <nav class="desktop">
                 <div class="logo">
-                    <a href="#" title="4 Elements - Homepage"><img src="/assets/images/logo-noir.png" alt="4 Elements - logo of the company"></a>
+                    <a href="index.html" title="4 Elements - Homepage"><img src="assets/images/logo-noir.png" alt="4 Elements - logo of the company"></a>
                 </div>
                 <ul>
                     <li><a href="#" title="4 Elements - Hotel Feu">Feu</a></li>
@@ -33,12 +44,12 @@
             <div class="user-interface desktop">
                 <ul>
                     <li><a href="#" title="4 Elements - Contact us">Contact</a></li>
-                    <li><a href="#" title="4 Elements - Instagram"><img src="/assets/images/insta.png" alt="4 Elements - Instagram"></a></li>
-                    <li><a href="#" title="4 Elements - Facebook"><img src="/assets/images/fb.png" alt="4 Elements - Facebook"></a></li>
+                    <li><a href="#" title="4 Elements - Instagram"><img src="assets/images/insta.png" alt="4 Elements - Instagram"></a></li>
+                    <li><a href="#" title="4 Elements - Facebook"><img src="assets/images/fb.png" alt="4 Elements - Facebook"></a></li>
                 </ul>
                 <div class="navigation">
                     <div class="secondbtn">
-                        <button class="secondary-btn">Reserver</button>
+                        <button class="secondary-btn reserve">Reserver</button>
                     </div>
                     <div class="connect">
                         <a href="#" title="4 Elements - Connect">Se connecter</a>
@@ -47,8 +58,8 @@
             </div>
             <div class="user-interface mobile">
                 <ul>
-                    <li><a href="#" title="4 Elements - Instagram"><img src="/assets/images/insta-white.png" alt="4 Elements - Instagram"></a></li>
-                    <li><a href="#" title="4 Elements - Facebook"><img src="/assets/images/fb-white.png" alt="4 Elements - Facebook"></a></li>
+                    <li><a href="#" title="4 Elements - Instagram"><img src="assets/images/insta-white.png" alt="4 Elements - Instagram"></a></li>
+                    <li><a href="#" title="4 Elements - Facebook"><img src="assets/images/fb-white.png" alt="4 Elements - Facebook"></a></li>
                 </ul>
             </div>
         </div>
@@ -58,10 +69,10 @@
             <div class="container-right">
                 <div class="image-hub">
                     <div class="main-img">
-                        <img src="/assets/images/feu1.jpg" alt="Hotel Feu - first image">
+                        <img src="assets/images/feu1.jpg" alt="Hotel Feu - first image">
                     </div>
                     <div class="small-img">
-                        <img src="/assets/images/feu2.jpg" alt="Hotel Feu - second image">
+                        <img src="assets/images/feu2.jpg" alt="Hotel Feu - second image">
                     </div>
                 </div>
                 <div class="content">
@@ -70,10 +81,10 @@
                     </div>
                     <div class="rate-hub">
                         <div class="location">
-                            <img src="/assets/images/locator.png" alt="Location pointer"> <span>Finlande</span>
+                            <img src="assets/images/locator.png" alt="Location pointer"> <span>Finlande</span>
                         </div>
                         <div class="rating">
-                            <a href="#"><img src="/assets/images/rating.png" alt="rating"></a>
+                            <a href="#"><img src="assets/images/rating.png" alt="rating"></a>
                         </div>
                     </div>
                     <div class="article">
@@ -83,7 +94,7 @@
                         </article>
                     </div>
                     <div class="section-prmbtn">
-                        <button class="primary-btn">Reserver</button>
+                        <button class="primary-btn reserve">Reserver</button>
                     </div>
                 </div>
             </div>
@@ -96,7 +107,7 @@
                 <div class="offer-content">
                     <div class="offer-item">
                         <div class="offer-img">
-                            <img src="/assets/images/igloo.jpg" alt="4 Elements - Igloo room type">
+                            <img src="assets/images/igloo.jpg" alt="4 Elements - Igloo room type">
                         </div>
                         <div class="offer-subtitle">
                             <h4>Découvrez nos igloos et voyagez le temps d’une nuit</h4>
@@ -109,12 +120,12 @@
                         <div class="offer-details">
                             <div class="details">
                                 <ul>
-                                    <li><img src="/assets/icons/sparkle.svg" alt="Spa icon"> Spa</li>
-                                    <li><img src="/assets/icons/car.svg" alt="Parking icon"> Parking</li>
-                                    <li><img src="/assets/icons/snowflake.svg" alt="Climatisation icon"> Climatisation</li>
-                                    <li><img src="/assets/icons/swimming-pool.svg" alt="Piscine icon"> Piscine</li>
-                                    <li><img src="/assets/icons/barbell.svg" alt="Salle de sport icon"> Salle de Sport</li>
-                                    <li><img src="/assets/icons/bus.svg" alt="Transport aéroport icon"> Transport aéroport</li>
+                                    <li><img src="assets/icons/sparkle.svg" alt="Spa icon"> Spa</li>
+                                    <li><img src="assets/icons/car.svg" alt="Parking icon"> Parking</li>
+                                    <li><img src="assets/icons/snowflake.svg" alt="Climatisation icon"> Climatisation</li>
+                                    <li><img src="assets/icons/swimming-pool.svg" alt="Piscine icon"> Piscine</li>
+                                    <li><img src="assets/icons/barbell.svg" alt="Salle de sport icon"> Salle de Sport</li>
+                                    <li><img src="assets/icons/bus.svg" alt="Transport aéroport icon"> Transport aéroport</li>
                                 </ul>
                             </div>
                             <div class="plus">
@@ -125,12 +136,12 @@
                             <p>à partir de <span>500€ / nuit</span></p>
                         </div>
                         <div>
-                            <button class="primary-btn">Reserver</button>
+                            <button class="primary-btn reserve">Reserver</button>
                         </div>
                     </div>
                     <div class="offer-item">
                         <div class="offer-img">
-                            <img src="/assets/images/laponie.jpg" alt="4 Elements - Laponie room type">
+                            <img src="assets/images/laponie.jpg" alt="4 Elements - Laponie room type">
                         </div>
                         <div class="offer-subtitle">
                             <h4>Découvrez la suite Laponie et voyagez le temps d’une nuit</h4>
@@ -143,12 +154,12 @@
                         <div class="offer-details">
                             <div class="details">
                                 <ul>
-                                    <li><img src="/assets/icons/sparkle.svg" alt="Spa icon"> Spa</li>
-                                    <li><img src="/assets/icons/car.svg" alt="Parking icon"> Parking</li>
-                                    <li><img src="/assets/icons/snowflake.svg" alt="Climatisation icon"> Climatisation</li>
-                                    <li><img src="/assets/icons/swimming-pool.svg" alt="Piscine icon"> Piscine</li>
-                                    <li><img src="/assets/icons/barbell.svg" alt="Salle de sport icon"> Salle de Sport</li>
-                                    <li><img src="/assets/icons/bus.svg" alt="Transport aéroport icon"> Transport aéroport</li>
+                                    <li><img src="assets/icons/sparkle.svg" alt="Spa icon"> Spa</li>
+                                    <li><img src="assets/icons/car.svg" alt="Parking icon"> Parking</li>
+                                    <li><img src="assets/icons/snowflake.svg" alt="Climatisation icon"> Climatisation</li>
+                                    <li><img src="assets/icons/swimming-pool.svg" alt="Piscine icon"> Piscine</li>
+                                    <li><img src="assets/icons/barbell.svg" alt="Salle de sport icon"> Salle de Sport</li>
+                                    <li><img src="assets/icons/bus.svg" alt="Transport aéroport icon"> Transport aéroport</li>
                                 </ul>
                             </div>
                             <div class="plus">
@@ -159,7 +170,7 @@
                             <p>à partir de <span>850€ / nuit</span></p>
                         </div>
                         <div>
-                            <button class="primary-btn">Reserver</button>
+                            <button class="primary-btn reserve">Reserver</button>
                         </div>
                     </div>
                 </div>
@@ -177,7 +188,7 @@
                 </div>
                 <div class="cards-services">
                     <div class="card">
-                        <img src="/assets/images/uber.jpg" alt="">
+                        <img src="assets/images/uber.jpg" alt="">
                         <div class="card-content">
                             <h4>Chauffeur</h4>
                             <p>Explorez la ville en toute sérénité avec notre service de chauffeur exclusif, offert par l'hôtel.</p>
@@ -185,7 +196,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="/assets/images/dejeuner.jpg" alt="">
+                        <img src="assets/images/dejeuner.jpg" alt="">
                         <div class="card-content">
                             <h4>Déjeuner</h4>
                             <p>Commencez votre journée en beauté avec notre service de petit déjeuner raffiné.</p>
@@ -193,7 +204,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="/assets/images/repas.jpg" alt="">
+                        <img src="assets/images/repas.jpg" alt="">
                         <div class="card-content">
                             <h4>Repas</h4>
                             <p>Savourez l'art culinaire de notre service de repas, où chaque plat est préparé pour émerveiller vos papilles.</p>
@@ -211,42 +222,42 @@
                 </div>
                 <div id="slider" class="cards-services">
                     <div id="card-one" class="alter-card">
-                        <img src="/assets/images/chien-traineaux.jpg" alt="">
+                        <img src="assets/images/chien-traineaux.jpg" alt="">
                         <div class="card-content">
                             <h4>Chien de traineaux</h4>
                             <p>Plongez dans une aventure hivernale palpitante en explorant la beauté des paysages enneigés lors d'une excursion magique.</p>
                             <div>
-                                <button class="secondary-btn">Reserver</button>
+                                <button class="secondary-btn reserve">Reserver</button>
                             </div>
                         </div>
                     </div>
                     <div id="card-two" class="alter-card">
-                        <img src="/assets/images/rando-raquette.jpg" alt="">
+                        <img src="assets/images/rando-raquette.jpg" alt="">
                         <div class="card-content">
                             <h4>Rando en raquette</h4>
                             <p>Parcourez des sentiers immaculés et découvrez la tranquillité hivernale tout en profitant d'une randonnée en raquettes.</p>
                             <div>
-                                <button class="secondary-btn">Reserver</button>
+                                <button class="secondary-btn reserve">Reserver</button>
                             </div>
                         </div>
                     </div>
                     <div id="card-three" class="alter-card">
-                        <img src="/assets/images/volcan.png" alt="">
+                        <img src="assets/images/volcan.png" alt="">
                         <div class="card-content">
                             <h4>Découvrir les volcans</h4>
                             <p>Explorez le monde fascinant des volcans, plongez au cœur de paysages spectaculaires et laissez-vous émerveiller.</p>
                             <div>
-                                <button class="secondary-btn">Reserver</button>
+                                <button class="secondary-btn reserve">Reserver</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="wrapper">
                     <div>
-                        <button id="left"><img src="/assets/images/left.png" alt="left arrow"></button>
+                        <button id="left"><img src="assets/images/left.png" alt="left arrow"></button>
                     </div>
                     <div>
-                        <button id="right"><img src="/assets/images/right.png" alt="right arrow"></button>
+                        <button id="right"><img src="assets/images/right.png" alt="right arrow"></button>
                     </div>
                 </div>   
             </div>
@@ -254,11 +265,11 @@
         <section class="video">
             <div class="container-fluid">
                 <video disablePictureInPicture autoplay loop muted playsinline>
-                    <source src="/assets/videos/fire.mp4" type="video/mp4">
+                    <source src="assets/videos/fire.mp4" type="video/mp4">
                 </video>
             </div>
         </section>
-        <section class="avis">
+        <section id="avis" class="avis">
             <div class="container-avis">
                 <div class="avis-title">
                     <h4>Avis client</h4>
@@ -267,11 +278,11 @@
                     <div class="avis-content">
                         <div class="avis-user">
                             <div class="face">
-                                <img src="/assets/images/Avy.png" alt="Avy - the client">
+                                <img src="assets/images/Avy.png" alt="Avy - the client">
                             </div>
                             <div class="infos">
                                 <p>Avy Johnson</p>
-                                <img src="/assets/images/user-rating.png" alt="user rating">
+                                <img src="assets/images/user-rating.png" alt="user rating">
                             </div>
                         </div>
                         <div class="avis-article">
@@ -283,11 +294,11 @@
                     <div class="avis-content">
                         <div class="avis-user">
                             <div class="face">
-                                <img src="/assets/images/thomas.png" alt="Thomas - the client">
+                                <img src="assets/images/thomas.png" alt="Thomas - the client">
                             </div>
                             <div class="infos">
                                 <p>Thomas Capello</p>
-                                <img src="/assets/images/user-rating.png" alt="user rating">
+                                <img src="assets/images/user-rating.png" alt="user rating">
                             </div>
                         </div>
                         <div class="avis-article">
@@ -307,7 +318,7 @@
                 <div class="content-general">
                     <ul>
                         <li class="special-list-element">
-                            <img src="/assets/icons/key.svg" alt="">
+                            <img src="assets/icons/key.svg" alt="">
                             <div>
                                 <span>Arrivée</span>
                                 <p>De 15h00 à 0h00</p>
@@ -318,35 +329,35 @@
                             </div>
                         </li>
                         <li>
-                            <img src="/assets/icons/info.svg" alt="">
+                            <img src="assets/icons/info.svg" alt="">
                             <div>
                                 <span>Annulation/prépaiement</span>
                                 <p>Les conditions d'annulation et de prépaiement varient en fonction du type d'hébergement.Veuillez saisir les dates de votre séjour et consulter les conditions de la chambre choisie.</p>
                             </div>
                         </li>
                         <li>
-                            <img src="/assets/icons/user.svg" alt="">
+                            <img src="assets/icons/user.svg" alt="">
                             <div>
                                 <span>Restriction relative à l'âge</span>
                                 <p>Les clients doivent avoir au moins 18 ans pour pouvoir s'enregistrer.</p>
                             </div>
                         </li>
                         <li>
-                            <img src="/assets/icons/wheelchair.svg" alt="">
+                            <img src="assets/icons/wheelchair.svg" alt="">
                             <div>
                                 <span>Accessibilité</span>
                                 <p>L’établissement est accessible aux personnes à mobilité réduite (PMR)</p>
                             </div>
                         </li>
                         <li>
-                            <img src="/assets/icons/paw-print.svg" alt="">
+                            <img src="assets/icons/paw-print.svg" alt="">
                             <div>
                                 <span>Animaux de compagnie</span>
                                 <p>Les animaux de compagnie ne sont pas admis au sein de l'établissement.</p>
                             </div>
                         </li>
                         <li>
-                            <img src="/assets/icons/credit-card.svg" alt="">
+                            <img src="assets/icons/credit-card.svg" alt="">
                             <div>
                                 <span>Moyens de paiement acceptés</span>
                                 <p>Paiement par carte bancaire (VISA, MasterCard, American Express..)</p>
@@ -366,20 +377,111 @@
                     </div>
                 </div>
             </div>
+            <div id="modal" class="modal d-none">
+                <form action="index.html" id="form-modal">
+                    <div class="wrap">
+                        <label for="name">Nom :</label>
+                        <input type="text" name="fullname" id="name">
+                    </div>
+                    <div class="wrap">
+                        <label for="address">Adresse :</label>
+                        <input type="text" name="address" id="street">
+                    </div>
+                    <div class="wrap">
+                        <label for="address">Ville :</label>
+                        <input type="text" name="address" id="city">
+                    </div>
+                    <div class="wrap">
+                        <label for="address">Code postale :</label>
+                        <input type="text" name="address" id="postal">
+                    </div>
+                    <div class="wrap">
+                        <label for="email">E-mail :</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="wrap">
+                        <label for="phone">Telephone :</label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+                    <div class="wrap">
+                        <label for="accommodation">Type d'accommodation :
+                        <input type="checkbox" name="house" id="house">
+                        Igloo
+                        <input type="checkbox" name="Appartment" id="appartment">
+                        Suite Laponie
+                        </label>
+                    </div>
+                    <div class="wrap">
+                        <select name="Number of adults" id="nbppl">
+                        <option value="0">Select number of adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        </select>
+                    </div>
+                    <div class="wrap">
+                        <label>Arrival date :
+                            <input type="date" name="arr-date" id="arrdate">
+                        </label>
+                    </div>
+                    <div class="wrap">
+                        <label>Departure date :
+                            <input type="date" name="dep-date" id="depdate">
+                        </label>
+                    </div>
+                    <div class="wrap">
+                        <label>Additional services :
+                            <input type="checkbox" name="piscine" id="chauffer" data-price="15">
+                            Chauffer (11€ / jour)
+                            <input type="checkbox" name="jardin" id="pdj" data-price="15">
+                            Petit Dejeuner (15€ / jour)
+                            <input type="checkbox" name="repas" id="repas" data-price="25">
+                            Repas (25€ / jour)
+                            <input type="checkbox" name="visite" id="visite" data-price="20">
+                            La visite guidée (20€ / jour)
+                        </label>
+                    </div>
+                    <div class="wrap d-none">
+                        <label>Regime :
+                            <input type="radio" name="choice-one">
+                            Vegan
+                            <input type="radio" name="choice-one">
+                            Vegetarien
+                            <input type="radio" name="choice-one">
+                            Pas de regime
+                        </label>
+                    </div>
+                    <div class="wrap d-none">
+                        <label>Alergie :
+                            <input type="radio" name="choice">
+                            Sans gluten
+                            <input type="radio" name="choice">
+                            Sans Lactoses
+                            <input type="radio" name="choice">
+                            Autres allergies et intolérances
+                            <input type="radio" name="choice">
+                            Pas des alergies
+                        </label>
+                    </div>
+                    <button type="submit">Submit reservation</button>
+                </form>
+                <div class="summary"></div>
+                <div class="error"></div>
+                <button id="reset">Reset form</button>
+            </div>
         </section>
     </main>
     <footer>
         <div class="container-footer">
             <div class="footer-media">
                 <div class="logo">
-                    <img src="/assets/images/logo-noir.png" alt="4 Elements - logo">
+                    <img src="assets/images/logo-noir.png" alt="4 Elements - logo">
                 </div>
                 <div class="slogan">
                     <p>N’attendez plus pour vivre l’expérience 4 éléments le temps d’une nuit.</p>
                 </div>
                 <div class="social-media">
-                    <img src="/assets/images/insta.png" alt="4 Elements - Instagram">
-                    <img src="/assets/images/fb.png" alt="4 Elements - Facebook">
+                    <img src="assets/images/insta.png" alt="4 Elements - Instagram">
+                    <img src="assets/images/fb.png" alt="4 Elements - Facebook">
                 </div>
             </div>
             <div class="footer-contact">
@@ -392,19 +494,19 @@
                     <p><span>Tél :</span> 33 08 280 28002</p>
                 </div>
                 <div>
-                    <button class="secondary-btn">Reserver en ligne</button>
+                    <button class="secondary-btn reserve">Reserver en ligne</button>
                 </div>
             </div>
             <div class="footer-legal">
                 <ul>
                     <li><a href="#">Mentions légales</a></li>
-                    <li><a href="">Crédits</a></li>
-                    <li><a href="">CGV</a></li>
-                    <li><a href="">Confidentialité</a></li>
+                    <li><a href="#">Crédits</a></li>
+                    <li><a href="#">CGV</a></li>
+                    <li><a href="#">Confidentialité</a></li>
                 </ul>
             </div>
         </div>
     </footer>
-<script src="/assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
