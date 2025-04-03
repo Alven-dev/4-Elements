@@ -79,7 +79,7 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
 
-    background-image: url('assets/images/arrow.png'); 
+    background-image: url('images/arrow.png'); 
     background-repeat: no-repeat;
     background-position: right 3rem center;
     background-size: 1.2rem;
@@ -88,7 +88,7 @@ select {
 
 input[type="date"] {
 
-    background-image: url('assets/images/arrow.png'); 
+    background-image: url('images/arrow.png'); 
     background-repeat: no-repeat;
     background-position: right 3rem center;
     background-size: 1.2rem;
