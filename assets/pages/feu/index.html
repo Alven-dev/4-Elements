@@ -378,37 +378,40 @@
                 </div>
             </div>
             <div id="modal" class="modal d-none">
-                <form action="../../../index.html" id="form-modal">
+                <form action="index.html" id="form-modal">
                     <div class="wrap">
-                        <label for="name">Nom :</label>
+                        <label>Nom :</label>
                         <input type="text" name="fullname" id="name">
                     </div>
                     <div class="wrap">
-                        <label for="address">Adresse :</label>
+                        <label>Adresse :</label>
                         <input type="text" name="address" id="street">
                     </div>
                     <div class="wrap">
-                        <label for="address">Ville :</label>
+                        <label>Ville :</label>
                         <input type="text" name="address" id="city">
                     </div>
                     <div class="wrap">
-                        <label for="address">Code postale :</label>
+                        <label>Code postale :</label>
                         <input type="text" name="address" id="postal">
                     </div>
                     <div class="wrap">
-                        <label for="email">E-mail :</label>
+                        <label>E-mail :</label>
                         <input type="text" name="email" id="email">
                     </div>
                     <div class="wrap">
-                        <label for="phone">Telephone :</label>
+                        <label>Telephone :</label>
                         <input type="text" name="phone" id="phone">
                     </div>
                     <div class="wrap">
-                        <label for="accommodation">Type d'accommodation :
-                        <input type="checkbox" name="house" id="house">
+                        <label>Type d'accommodation :</label>
+                        <label>
                         Igloo
-                        <input type="checkbox" name="Appartment" id="appartment">
+                        <input type="checkbox" name="house" id="house">
+                        </label>
+                        <label>
                         Suite Laponie
+                        <input type="checkbox" name="Appartment" id="appartment">
                         </label>
                     </div>
                     <div class="wrap">
@@ -429,38 +432,57 @@
                         </label>
                     </div>
                     <div class="wrap">
-                        <label>Additional services :
-                            <input type="checkbox" name="piscine" id="chauffer" data-price="15">
+                        <label>Additional services :</label>
+                            <label>
                             Chauffer (11€ / jour)
-                            <input type="checkbox" name="jardin" id="pdj" data-price="15">
+                            <input type="checkbox" name="piscine" id="chauffer" data-price="15">
+                            </label>
+                            <label>
                             Petit Dejeuner (15€ / jour)
-                            <input type="checkbox" name="repas" id="repas" data-price="25">
+                            <input type="checkbox" name="jardin" id="pdj" data-price="15">
+                            </label>
+                            <label>
                             Repas (25€ / jour)
-                            <input type="checkbox" name="visite" id="visite" data-price="20">
+                            <input type="checkbox" name="repas" id="repas" data-price="25">
+                            </label>
+                            <label>
                             La visite guidée (20€ / jour)
-                        </label>
+                            <input type="checkbox" name="visite" id="visite" data-price="20">
+                            </label>
                     </div>
                     <div class="wrap d-none">
-                        <label>Regime :
+                        <label>Regime : </label>
+                            <label>
                             <input type="radio" name="choice-one">
                             Vegan
+                            </label>
+                            <label>
                             <input type="radio" name="choice-one">
                             Vegetarien
+                            </label>
+                            <label>
                             <input type="radio" name="choice-one">
                             Pas de regime
-                        </label>
+                            </label>
                     </div>
                     <div class="wrap d-none">
-                        <label>Alergie :
+                        <label>Alergie :</label>
+                            <label>
                             <input type="radio" name="choice">
                             Sans gluten
+                            </label>
+                            <label>
                             <input type="radio" name="choice">
                             Sans Lactoses
+                            </label>
+                            <label>
                             <input type="radio" name="choice">
                             Autres allergies et intolérances
+                            </label>
+                            <label>
                             <input type="radio" name="choice">
                             Pas des alergies
-                        </label>
+                            </label>
                     </div>
                     <button type="submit">Submit reservation</button>
                 </form>
