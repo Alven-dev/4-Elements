@@ -129,6 +129,10 @@ main {
     font-weight: bold;
 }
 
+video {
+    disable-picture-in-picture: true;
+}
+
 @media (max-width: 768px) {
     
 }
