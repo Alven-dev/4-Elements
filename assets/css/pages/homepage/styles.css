@@ -416,13 +416,14 @@ h3 {
 
 
     .main-img {
-        width: 100%;
+        width: 50%;
         height: 50rem;
         
     }
 
     .main-img img {
         object-position: center;
+        width: 34rem;
     }
 
     .article {
