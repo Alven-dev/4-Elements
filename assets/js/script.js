@@ -29,6 +29,41 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(rotateCards, 5000);
 });
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    const sliders = document.querySelectorAll(".image-hub");
+
+    sliders.forEach((slider) => {
+        let cards = Array.from(slider.querySelectorAll(".main-img"));
+
+        function rotateCards() {
+            const firstCard = cards[0];
+
+            firstCard.style.transition = "opacity 0.6s ease-in-out";
+            firstCard.style.opacity = "0";
+
+            setTimeout(() => {
+                firstCard.style.transition = "none";
+                firstCard.style.opacity = "0";
+                slider.appendChild(firstCard);
+
+                cards.push(cards.shift());
+
+                setTimeout(() => {
+                    firstCard.style.transition = "opacity 0.6s ease-in-out";
+                    firstCard.style.opacity = "1";
+                }, 1000);
+            }, 1000);
+            const nextDelay = Math.random() * 4000 + 3000;
+            setTimeout(rotateCards, nextDelay); 
+        }
+
+        const initialDelay = Math.random() * 4000 + 3000;
+        setTimeout(rotateCards, initialDelay);
+    });
+});
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const mover = document.getElementById("slider");
     const leftBtn = document.getElementById("left");
