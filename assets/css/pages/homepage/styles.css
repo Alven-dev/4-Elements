@@ -395,22 +395,23 @@ h3 {
 
     .image-hub {
         width: fit-content;
-        height: 100%;
+        height: 50rem;
         gap: 5rem;
         position: relative;
         overflow: hidden;
         display: flex;
+        flex-direction: column;
     }
-
 
     .main-img {
         width: 50%;
         height: 50rem;
-        
     }
 
     .main-img img {
+        object-fit: cover;
         object-position: center;
+        height: 50rem;
         width: 34rem;
     }
 
@@ -432,7 +433,7 @@ h3 {
     }
 
     .air .image-hub, .eau .image-hub {
-        flex-direction: row-reverse;
+        flex-direction: column;
     }
 
     .container {
