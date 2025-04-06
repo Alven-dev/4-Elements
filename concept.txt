@@ -1,84 +1,83 @@
-Home Page Mockup Specification
+Spécification de la maquette de la page d'accueil
 
-General Layout
+Disposition générale
 
-The homepage consists of multiple sections with a structured and modern design. The color scheme follows earthy and neutral tones.
+La page d'accueil se compose de plusieurs sections au design structuré et moderne. La palette de couleurs suit des tons neutres et terreux.
 
-Header
+En-tête
 
-Logo on the left labeled "4 Éléments"
+Logo à gauche intitulé « 4 Éléments ».
 
-Navigation links: "Feu", "Air", "Terre", "Eau"
+Liens de navigation : « Feu, Air, Terre, Eau
 
-Social media icons: Facebook, Instagram
+Icônes de médias sociaux : Facebook, Instagram
 
-Two buttons: "Se connecter" and "Réserver"
+Deux boutons : « Se connecter » et »Réserver »
 
-Hero Section
+Section héros
 
-Background image of a luxury hotel setting
+Image d'arrière-plan d'un hôtel de luxe
 
-Large headline: "Lorem ipsum dolor sit amet consectetur."
+Grand titre : « Lorem ipsum dolor sit amet consectetur ».
 
-Search availability form:
+Formulaire de recherche de disponibilité :
 
-Dropdown for hotel selection
+Liste déroulante pour la sélection de l'hôtel
 
-Dropdown for number of persons
+Liste déroulante pour le nombre de personnes
 
-Date picker for arrival and departure
+Sélecteur de date d'arrivée et de départ
 
-"Chercher" button
+« Bouton « Chercher
 
-Hotel Sections
+Sections d'hôtels
 
-Each hotel section presents a different theme (Feu, Air, Terre, Eau) with:
+Chaque section d'hôtel présente un thème différent (Feu, Air, Terre, Eau) avec :
 
-Title and location
+Titre et emplacement
 
-Star rating (3 stars)
+Classement par étoiles (3 étoiles)
 
-Description
+Description de l'hôtel
 
-"Réserver" button
+« Bouton « Réserver
 
-Image gallery (two images per hotel, aligned side by side)
+Galerie d'images (deux images par hôtel, alignées côte à côte)
 
-Concept & Architecture Section
+Section « Concept et architecture
 
-Two columns:
+Deux colonnes :
 
-"Le concept" with an image of a thatched-roof hotel
+« Le concept » avec l'image d'un hôtel au toit de chaume
 
-"L'architecture" with a neoclassical-style hotel
+« L'architecture » avec un hôtel de style néoclassique
 
-Creator's Note
+Note du créateur
 
-Quote block
+Bloc de citation
 
-Image of the founder (elderly man)
+Image du fondateur (homme âgé)
 
-Signature: "Trinh Kuan Hano - Co-fondateur de 4 Éléments"
+Signature : « Trinh Kuan Hano - Co-fondateur de 4 Éléments »
 
-Footer
+Pied de page
 
-Logo and tagline
+Logo et slogan
 
-Contact section with email and address
+Section « Contact » avec adresse électronique et adresse postale
 
-"Inscrivez un hôtel" button
+« Bouton « Inscrivez un hôtel
 
-Links: Mentions légales, CGV, FAQ
+Liens : Mentions légales, CGV, FAQ
 
-Social media icons
+Icônes de médias sociaux
 
-Design Considerations
+Considérations relatives à la conception
 
-Soft shadows and rounded edges for modern aesthetics
+Ombres douces et bords arrondis pour une esthétique moderne
 
-Adequate white space for readability
+Espace blanc suffisant pour une meilleure lisibilité
 
-Consistent typography with elegant serif fonts
+Typographie cohérente avec des polices à empattement élégantes
 
-High-resolution images to maintain visual appeal
-
+Images haute résolution pour maintenir l'attrait visuel
