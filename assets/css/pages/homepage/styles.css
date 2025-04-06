@@ -190,18 +190,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     
 }
 
-
-.small-img {
-    width: 30%;
-}
-
-.small-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
 .content {
     display: flex;
     flex-direction: column;

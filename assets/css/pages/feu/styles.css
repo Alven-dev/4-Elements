@@ -17,10 +17,17 @@
     display: flex;
     flex-direction: row;
     gap: 5rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
 }
 
 .main-img {
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 5rem;
 }
 
 .main-img img {
@@ -31,15 +38,13 @@
     
 }
 
-.small-img {
-    width: 30%;
-}
-
-.small-img img {
-    width: 100%;
+.main-img img {
+    width: auto;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: -55rem;
+    position: relative;
+    
 }
 
 .content {
